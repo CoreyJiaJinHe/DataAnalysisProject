@@ -10,7 +10,5 @@ header=pd.read_csv('.\data\StudentAcademicSuccess\data.csv',nrows=1)
 print(header.head())
 
 df=pd.read_csv('.\data\StudentAcademicSuccess\data.csv',skiprows=1)
-data_head = df.head()
 
-# I have entered the system
 #df.shape()
